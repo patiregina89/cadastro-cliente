@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<html lang="pt-br">
+
+<head>
+    <title>Clientes cadastrados</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Patricia Regina Rodrigues">
+    <meta name="description" content="Clientes cadastrados">
+    <meta name="keywords" content="html5, sass, JS">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<script>
+    $(document).ready(function () {
+        carregaClientes();
+    });
+</script>
+
+<body>
+    <header class="menu">
+        <a class="btn_menu" href="cadastroCliente.html">Novo Cliente</a>
+    </header>
+    <section class="table">
+        <h1 class="table_title">
+            Clientes cadastrados
+        </h1>
+        <div class="table_table">
+            <div class="table_col">
+                <div class="table_th">Id</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Nome</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">CPF</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Telefone</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Email</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Rua</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Bairro</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Cidade</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">Estado</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th">CEP</div>
+            </div>
+            <div class="table_col">
+                <div class="table_th"></div>
+            </div>
+        </div>
+        <div id="clientes">
+                
+        </div>
+    </section>
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+
+</html>

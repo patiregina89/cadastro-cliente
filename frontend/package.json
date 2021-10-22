@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "serve": "fserver path=. port=3000",
+        "sass": "sass ./assets/sass/main.scss ./css/main.css",
+        "sass:dev": "sass --watch ./assets/sass/main.scss ./css/main.css"
+    },
+    "dependencies": {
+        "frontend-server": "^2.0.1",
+        "normalize.css": "^8.0.1",
+        "sass": "^1.32.11"
+    }
+}
